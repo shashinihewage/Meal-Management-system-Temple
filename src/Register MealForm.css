@@ -1,0 +1,39 @@
+.meal-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.meal-form label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.meal-form input,
+.meal-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.meal-form button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #2d74da;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.meal-form button:hover {
+  background-color: #1e5bb8;
+}
